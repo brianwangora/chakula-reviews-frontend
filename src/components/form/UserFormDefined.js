@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const USERS = "http://localhost:9292/users"
+const USERS = "https://chakula-reviews.herokuapp.com/users"
 
 export default function UserFormDefined(){
     const [id, setId] = useState("")

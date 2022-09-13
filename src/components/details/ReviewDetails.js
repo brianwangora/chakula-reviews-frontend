@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const REVIEW = "http://localhost:9292/restaurants/review/"
+const REVIEW = "https://chakula-reviews.herokuapp.com/restaurants/review/"
 
 
 export default function ReviewDetails() {

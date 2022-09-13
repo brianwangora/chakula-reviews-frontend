@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const RESTAURANT_INFO = "http://localhost:9292/restaurants/"
+const RESTAURANT_INFO = "https://chakula-reviews.herokuapp.com/restaurants/"
 
 export default function RestaurantDetails() {
     const [name, setName] = useState("")

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const REVIEWS = "http://localhost:9292/reviews"
+const REVIEWS = "https://chakula-reviews.herokuapp.com/reviews"
 
 export default function ReviewFormDefined(){
     const [id, setId] = useState("")

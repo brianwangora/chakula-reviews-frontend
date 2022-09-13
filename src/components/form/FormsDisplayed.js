@@ -13,7 +13,7 @@ export default function FormsDisplayed() {
     }
 
     const userIdFetcher = () => {
-        fetch("http://localhost:9292/users")
+        fetch("https://chakula-reviews.herokuapp.com/users")
             .then((response) => response.json())
             .then((user) => {
                 setId(user[user.length - 1].id)

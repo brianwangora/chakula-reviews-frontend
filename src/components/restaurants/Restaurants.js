@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RestaurantCard from "../card/RestaurantCard";
 
-const RESTAURANTS = "http://localhost:9292/restaurants"
+const RESTAURANTS = "https://chakula-reviews.herokuapp.com/restaurants"
 
 export default function Restaurants(){
     const [restaurants, setRestaurants] = useState([])
